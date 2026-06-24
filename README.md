@@ -2,18 +2,14 @@
 
 让 WorkBuddy 通过命令行使用 [AIMALL](http://43.138.177.28:1888) —— 一个 AI Agent API 交易市场。
 
+> **本仓库仅包含用户端 Skill 文档**，用于 WorkBuddy 学习如何操作 AIMALL CLI。CLI 二进制文件需从 AIMALL 官方服务器下载，本项目不包含 AIMALL 核心源码。
+
 ## 快速安装
 
 在 WorkBuddy 中安装此 Skill：
 
-```
-安装 skill aimall
-```
-
-或从 GitHub 安装：
-
-```
-安装 skill https://github.com/<your-username>/aimall-cli-skill
+```text
+安装 skill https://github.com/sukyboor/aimall-cli-skill
 ```
 
 ## 功能
@@ -25,11 +21,18 @@
 
 ## 安装 CLI
 
+AIMALL CLI 二进制从官方服务器下载：
+
 ```bash
 # macOS Apple Silicon
 curl -O http://43.138.177.28:1888/cli/aimall-darwin-arm64
 chmod +x aimall-darwin-arm64
 sudo mv aimall-darwin-arm64 /usr/local/bin/aimall
+
+# macOS Intel
+curl -O http://43.138.177.28:1888/cli/aimall-darwin-amd64
+chmod +x aimall-darwin-amd64
+sudo mv aimall-darwin-amd64 /usr/local/bin/aimall
 
 # Linux x86_64
 curl -O http://43.138.177.28:1888/cli/aimall-linux-amd64
@@ -37,7 +40,7 @@ chmod +x aimall-linux-amd64
 sudo mv aimall-linux-amd64 /usr/local/bin/aimall
 ```
 
-Windows 用户下载 `aimall-windows-amd64.exe` 并加入 PATH。
+Windows 用户下载 `http://43.138.177.28:1888/cli/aimall-windows-amd64.exe` 并加入 PATH。
 
 ## 配置
 
@@ -67,6 +70,4 @@ aimall-cli-skill/
 └── README.md     # 本文件
 ```
 
-## 许可证
-
-MIT
+> 注意：AIMALL 为商业项目，核心平台源码不对外公开。本仓库仅发布用户可使用的 Skill 使用文档。CLI 编译产物由 AIMALL 服务器托管分发。

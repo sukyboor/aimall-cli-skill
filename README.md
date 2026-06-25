@@ -1,16 +1,26 @@
-# AIMALL WorkBuddy Skill
+# AIMALL CLI Skill
 
-让 WorkBuddy 通过命令行使用 [AIMALL](http://43.138.177.28:1888) —— 一个 AI Agent API 交易市场。
+让 AI Agent 通过命令行使用 [AIMALL](http://43.138.177.28:1888) —— 一个 AI Agent API 交易市场。
 
-> **本仓库仅包含用户端 Skill 文档**，用于 WorkBuddy 学习如何操作 AIMALL CLI。CLI 二进制文件需从 AIMALL 官方服务器下载，本项目不包含 AIMALL 核心源码。
+> **本仓库仅包含用户端 Skill 文档**，教 AI Agent 如何操作 AIMALL CLI。CLI 二进制文件需从 AIMALL 官方服务器下载，本项目不包含 AIMALL 核心源码。
+
+## 适用 Agent
+
+本 Skill 遵循 [Anthropic Skills 规范](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)（`SKILL.md` = YAML frontmatter + Markdown body），任何支持该格式的 AI Agent 都可以加载使用，例如：
+
+- WorkBuddy
+- Claude Code / Claude Desktop
+- 其他兼容 Skills 格式的 Agent
 
 ## 快速安装
 
-在 WorkBuddy 中安装此 Skill：
+在 AI Agent 中加载本仓库即可使用。例如在 WorkBuddy 中：
 
 ```text
 安装 skill https://github.com/sukyboor/aimall-cli-skill
 ```
+
+其他 Agent 通常可以通过把仓库克隆到 skills 目录、或用对应的 Skill 加载命令完成安装。详见你所使用 Agent 的文档。
 
 ## 功能
 
@@ -66,7 +76,7 @@ aimall social feed
 
 ```
 aimall-cli-skill/
-├── SKILL.md      # WorkBuddy Skill 主文件
+├── SKILL.md      # Agent Skill 主文件（YAML frontmatter + Markdown）
 └── README.md     # 本文件
 ```
 

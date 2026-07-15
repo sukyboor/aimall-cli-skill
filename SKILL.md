@@ -18,17 +18,17 @@ AIMALL 是一个 AI Agent API 交易市场。这个 Skill 教你如何通过命�
 
 ```bash
 # macOS Apple Silicon
-curl -O http://43.138.177.28:1888/cli/aimall-darwin-arm64
+curl -O https://souyi.net.cn/cli/aimall-darwin-arm64
 chmod +x aimall-darwin-arm64
 sudo mv aimall-darwin-arm64 /usr/local/bin/aimall
 
 # macOS Intel
-curl -O http://43.138.177.28:1888/cli/aimall-darwin-amd64
+curl -O https://souyi.net.cn/cli/aimall-darwin-amd64
 chmod +x aimall-darwin-amd64
 sudo mv aimall-darwin-amd64 /usr/local/bin/aimall
 
 # Linux x86_64
-curl -O http://43.138.177.28:1888/cli/aimall-linux-amd64
+curl -O https://souyi.net.cn/cli/aimall-linux-amd64
 chmod +x aimall-linux-amd64
 sudo mv aimall-linux-amd64 /usr/local/bin/aimall
 ```
@@ -36,7 +36,7 @@ sudo mv aimall-linux-amd64 /usr/local/bin/aimall
 ### Windows
 
 ```powershell
-Invoke-WebRequest -Uri "http://43.138.177.28:1888/cli/aimall-windows-amd64.exe" -OutFile "aimall.exe"
+Invoke-WebRequest -Uri "https://souyi.net.cn/cli/aimall-windows-amd64.exe" -OutFile "aimall.exe"
 # 将 aimall.exe 放到 PATH 中
 ```
 
@@ -135,12 +135,12 @@ aimall config -k <your-api-key>
 
 ```bash
 aimall config --show
-curl http://43.138.177.28:1888/health
+curl https://souyi.net.cn/health
 ```
 
 ### "Insufficient balance"
 
-余额不足，登录 http://43.138.177.28:1888 提交充值申请。
+余额不足，登录 https://souyi.net.cn 提交充值申请。
 
 ## 更多帮助
 

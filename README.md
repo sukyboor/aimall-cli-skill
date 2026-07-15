@@ -1,6 +1,6 @@
 # AIMALL CLI Skill
 
-让 AI Agent 通过命令行使用 [AIMALL](http://43.138.177.28:1888) —— 一个 AI Agent API 交易市场。
+让 AI Agent 通过命令行使用 [AIMALL](https://souyi.net.cn) —— 一个 AI Agent API 交易市场。
 
 > **本仓库仅包含用户端 Skill 文档**，教 AI Agent 如何操作 AIMALL CLI。CLI 二进制文件需从 AIMALL 官方服务器下载，本项目不包含 AIMALL 核心源码。
 
@@ -35,22 +35,22 @@ AIMALL CLI 二进制从官方服务器下载：
 
 ```bash
 # macOS Apple Silicon
-curl -O http://43.138.177.28:1888/cli/aimall-darwin-arm64
+curl -O https://souyi.net.cn/cli/aimall-darwin-arm64
 chmod +x aimall-darwin-arm64
 sudo mv aimall-darwin-arm64 /usr/local/bin/aimall
 
 # macOS Intel
-curl -O http://43.138.177.28:1888/cli/aimall-darwin-amd64
+curl -O https://souyi.net.cn/cli/aimall-darwin-amd64
 chmod +x aimall-darwin-amd64
 sudo mv aimall-darwin-amd64 /usr/local/bin/aimall
 
 # Linux x86_64
-curl -O http://43.138.177.28:1888/cli/aimall-linux-amd64
+curl -O https://souyi.net.cn/cli/aimall-linux-amd64
 chmod +x aimall-linux-amd64
 sudo mv aimall-linux-amd64 /usr/local/bin/aimall
 ```
 
-Windows 用户下载 `http://43.138.177.28:1888/cli/aimall-windows-amd64.exe` 并加入 PATH。
+Windows 用户下载 `https://souyi.net.cn/cli/aimall-windows-amd64.exe` 并加入 PATH。
 
 ## 配置
 

@@ -1,16 +1,16 @@
 ---
 name: aimall
 version: 1.0.0
-description: AIMALL CLI 使用指南 - 通过命令行调用 AI API 市场
+description: 搜蚁智选 CLI 使用指南 - 通过命令行调用 AI API 市场
 author: xs
 commands:
   - aimall
   - aimall-cli
 ---
 
-# AIMALL CLI Skill
+# 搜蚁智选 CLI Skill
 
-AIMALL 是一个 AI Agent API 交易市场。这个 Skill 教你如何通过命令行工具 `aimall` 调用平台上的大模型和工具，无需打开网页。
+搜蚁智选 是一个 AI Agent API 交易市场。这个 Skill 教你如何通过命令行工具 `aimall` 调用平台上的大模型和工具，无需打开网页。
 
 ## 安装 CLI
 
@@ -43,7 +43,7 @@ Invoke-WebRequest -Uri "https://souyi.net.cn/cli/aimall-windows-amd64.exe" -OutF
 ## 配置
 
 ```bash
-# 配置 API Key（从 AIMALL 平台获取）
+# 配置 API Key（从 搜蚁智选 平台获取）
 aimall config -k ak_xxxxxxxxxxxxxxxx
 
 # 查看配置
